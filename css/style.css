@@ -1,0 +1,326 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* S T A R T   H O M E */
+.ground
+{
+    background-color: rgba(39, 34, 34, 0.5);
+}
+#home
+{
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.home h1
+{
+    font-weight: 300;
+    font-size: 50px;
+}
+.home h1::after
+{
+  content: " ";
+  animation-name: designer;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  font-weight: bolder;
+  font-size: 60px;
+}
+@keyframes designer
+{
+    0% {content: " ";}
+    1% {content: " L|";}
+    2% {content: " La|";}
+    3% {content: " Lar|";}
+    4% {content: " Larr|";}
+    5% {content: " Larry|";}
+    6% {content: " Larry D|";}
+    7% {content: " Larry Da|";}
+    8% {content: " Larry Dan|";}
+    9% {content: " Larry Dani|";}
+    10% {content: " Larry Danie|";}
+    11% {content: " Larry Daniel|";}
+    12% {content: " Larry Daniels|";}
+    13% {content: " Larry Daniel|";}
+    14% {content: " Larry Danie|";}
+    15% {content: " Larry Dani|";}
+    16% {content: " Larry Dan|";}
+    17% {content: " Larry Da|";}
+    18% {content: " Larry D|";}
+    19% {content: " Larry|";}
+    20% {content: " Larr|";}
+    21% {content: " Lar|";}
+    22% {content: " La|";}
+    23% {content: " L|";}
+    24% {content: " D|";}
+    25% {content: " De|";}
+    26% {content: " Dev |";}
+    27% {content: " Deve|";}
+    28% {content: " Devel|";}
+    29% {content: " Develo|";}
+    30% {content: " Develop|";}
+    31% {content: " Develope|";}
+    32% {content:  " Developer|";}
+    33% {content: " Develope|";}
+    34% {content: " Develop|";}
+    35% {content: " Develo|";}
+    36% {content: " Devel|";}
+    37% {content: " Deve|";}
+    38% {content: " Dev|";}
+    39% {content: " De|";}
+    40% {content: " D|";}
+    41% {content: " D|";}
+    42% {content: " De|";}
+    43% {content: " Des|";}
+    44% {content: " Desi|";}
+    45% {content: " Desig|";}
+    46% {content: " Design|";}
+    47% {content: " Designe";}
+    48% {content: " Designer|";}
+    49% {content: " Designe|";}
+    50% {content: " Design|";}
+    51% {content: " Desig|";}
+    52% {content: " Desi|";}
+    53% {content: " Des|";}
+    54% {content: " De|";}
+    55% {content: " D|";}
+    56% {content: " F|";}
+    57% {content: " Fr|";}
+    58% {content: " Fre|";}
+    59% {content: " Free|";}
+    60% {content: " Freel|";}
+    61% {content: " Freela|";}
+    62% {content: " Freelan|";}
+    63% {content: " Freelanc|";}
+    64% {content: " Freelance|";}
+    65% {content: " Freelancer|";}
+    66% {content: " Freelance|";}
+    67% {content: " Freelanc|";}
+    68% {content: " Freelan|";}
+    69% {content: " Freelan|";}
+    70% {content: " Freela|";}
+    71% {content: " Freel|";}
+    72% {content: " Free|";}
+    73% {content: " Fre|";}
+    74% {content: " Fr|";}
+    75% {content: " F|";}
+    76% {content: " P|";}
+    77% {content: " Ph|";}
+    78% {content: " Pho|";}
+    79% {content: " Phot|";}
+    80% {content: " Photo|";}
+    81% {content: " Photog|";}
+    82% {content: " Photogr|";}
+    83% {content: " Photogra|";}
+    84% {content: " Photograp|";}
+    85% {content: " Photograph|";}
+    86% {content: " Photographe|";}
+    87% {content: " Photographer|";}
+    88% {content: " Photographe|";}
+    88% {content: " Photograph|";}
+    89% {content: " Photograp|";}
+    90% {content: " Photogra|";}
+    91% {content: " Photogr|";}
+    92% {content: " Photog|";}
+    93% {content: " Photo|";}
+    94% {content: " Phot|";}
+    95% {content: " Pho|";}
+    96% {content: " Ph|";}
+    100% {content: " P|";}   
+}
+.icon
+{
+    background-color: rgba(39, 34, 34, 0.5);
+    cursor: pointer;
+}
+/* E N D   H O M E */
+
+/* S T A R T   A B O UT  */
+.layer
+{
+    position: absolute;
+    width: 75%;
+    height: 70%;
+    top: 35%;
+    right: 30%;
+    background-image: url(../images/dots.png);
+    z-index: -1;
+}
+.btn1
+{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+.btn2
+{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+.btn1:hover
+{
+   background-color: white;
+   color: black;
+}
+.btn2:hover
+{
+    background-color: black;
+    color: white;
+}
+.progress
+{
+    width: 100%;
+    padding: 4px 10px ;
+    border-radius: 5px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 7px rgb(0 0 0 15%) inset;
+    position: relative;
+    height: 25px;
+}
+.progress h6
+{
+  font-size: 13px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.progress-bar
+{
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    
+    transition: all 1s;
+}
+/* E N D   A B O U T */
+
+/* S T A R T   S E R V I C E S */
+.section-head h3
+{
+  font-weight: 900;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  z-index: 4;
+  
+}
+.section-head h3::after
+{
+  content: '';
+  width: 100%;
+  height: 30px;
+  background-image: url(../images/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  z-index: -1;
+}
+.services-icon i
+{
+    background-color: rgba(172, 168, 168, 0.277);
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 0.5s;
+}
+.item:hover .services-icon i
+{
+    background-color: black;
+    color: white;
+}
+/* E N D   S E R V I C E S */
+
+/* S T A R T   P O R T F O L I O */
+.layer2
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color:#fff;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.portfolio-item:hover .layer2
+{
+    opacity: 1;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.icons
+{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    border: 1px solid black;
+}
+.portfolio-icon i:hover
+{
+    color: #1c1c1c;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+/* E N D   S E R V I C E S */
+
+/* S T A R T   B L O G */
+.blog-img
+{
+    overflow: hidden;
+}
+.blog-img img
+{
+    transition: all 0.5s;
+}
+.blog-img:hover img
+{
+    transform: scale(1.2);
+}
+/* E N D   B L O G  */
+
+/* S T A R T   C O N T A C T */
+.contact-icon i
+{
+    background-color: #f7f7f7;
+    transition: all 0.5s;
+}
+.contact-item:hover i
+{
+    color: white;
+    background-color: black;
+}
+.form-button button
+{
+    background-color: #1c1c1c;
+    color: #fff;
+    transition: all .5s;
+}
+.form-button button:hover
+{
+    color: black;
+    background-color: white;
+}
+/* E N D   C O N T A C T */
+
+/* S T A R T   F O O T E R */
+.footer-icon a
+{
+    color: white;
+    transition: all 0.5s;
+}
+.footer-icon a:hover
+{
+    color: yellow;
+}
+/* E N D   F O O T E R */
